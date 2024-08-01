@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jquery 50 examples</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <!-- ex-1 -->
+<h2>1.Click the button to show the alert</h2>
+<button class="btn btn-dark" id="btn_alert">show alert</button>
+<hr>
+        <!-- ex-2  -->
+         <h2>2.Click the button to show/hide the text</h2>
+         <button class="btn btn-danger" id="btn_s">Show</button>
+         <button class="btn btn-dark" id="btn_h">Hide</button>
+         <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+<hr>
+          <!-- ex-3  -->
+          <h2>3.Click the button to show/hide the text within 1sec</h2>
+          <button class="btn btn-danger" id="btn_sh">Show</button>
+          <button class="btn btn-dark" id="btn_hi">Hide</button>
+          <h4>I love Earth</h4>
+<hr>
+          <!-- ex-4  -->
+          <h2>4.Click the button to show/hide the text fastly</h2>
+          <button class="btn btn-danger" id="btn_sho">Show</button>
+          <button class="btn btn-dark" id="btn_hid">Hide</button>
+          <h5>Earth is the only planet in our galaxy that can support life</h5>
+
+        <hr>
+          <!-- ex-5  -->
+          <h2>5.Click the button to show/hide the text slowly</h2>
+          <button class="btn btn-danger" id="btn_show">Show</button>
+          <button class="btn btn-dark" id="btn_hide">Hide</button>
+          <h6>Earth is home to about 300,000 plant species,over 600,000 species of fungi</h6>
+
+<hr>
+          <!-- ex-6  -->
+          <h2>6.Click the button to show/hide the text toggle</h2>
+          <button class="btn btn-danger" id="btn_shows">Show</button>
+          <button class="btn btn-dark" id="btn_hides">Hide</button>
+          <button class="btn btn-danger" id="btn_T">Toggle</button>
+          <h1>Who can ignore this beauty on earth</h1>
+<hr>
+          <!-- ex-7  -->
+          <h2>7.Click the button to show/hide the text with fade</h2>
+          <button class="btn btn-danger" id="btn_showsf">Show</button>
+          <button class="btn btn-dark" id="btn_hidesf">Hide</button>
+          <button class="btn btn-danger" id="btn_Tf">Toggle</button>
+          <h1 id="hh">Heaven on Earth</h1>
+<hr>
+          <!-- ex-8 -->
+           <div class="ques bg-danger">
+            <h1 class="mb-0">8.Toggle between slideUp() and slideDown() for all <p> elements</h1>
+           </div>
+
+           <div class="answ bg-warning">
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Atque praesentium illum neque itaque eos, iusto omnis perferendis 
+              recusandae, magni deleniti tempore sapiente. Praesentium, doloribus! 
+              Consequatur aliquam beatae porro placeat temporibus.</p>
+           </div>
+<hr>
+           <!-- ex-9 -->
+           <div class="quest">
+            <h1 class="mb-1">9.The dblclick event occurs when an element is double-clicked. </h1>
+           </div>
+
+           <div class="answe">
+            <p class="mb-1">The purpose of jQuery is to make it much easier to use JavaScript on your 
+              website. jQuery takes a lot of common tasks that require many lines of JavaScript code to 
+              accomplish, and wraps them into methods that you can call with a single line of code.</p>
+           </div>
+<hr>
+           <!-- ex-10 -->
+           <div class="questi">
+            <h2 class="mb-2">10.The jQuery mouseover method is an inbuilt method which works when mouse pointer moves over the selected elements.</h2>
+           </div>
+
+           <div class="answer">
+            <p class="mb-2">It makes things like HTML document traversal and manipulation, event handling, animation, and 
+              Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+           </div>
+<hr>
+            <!-- ex-11 -->
+            <div class="questio">
+              <h2 class="mb-2">11.The jQuery mouseenter() method is an inbuilt method which works when mouse pointer moves over the selected element. </h2>
+             </div>
+  
+             <div class="answers">
+              <p class="mb-2">It makes things like HTML document traversal and manipulation, event handling, animation, and 
+                Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+             </div>
+
+<hr>
+             <!-- ex-12 -->
+             <h2>12.click on the Select All button then all the options will be added in the select box.</h2>
+              <p>Mercury</p>
+             <p>Venus</p>
+             <p>Earth</p>
+             <p>Mars</p>
+             <p>Jupiter</p>
+             <p> Saturn</p>
+             <p>Uranus</p>
+             <p>Neptune</p>
+             <button class="btn btn-danger" id="btn_allHide">Select All</button>
+
+<hr>
+             <!-- ex-13 -->
+             <h2>13.click on the Select the current HTML element.</h2>
+              <p>Mercury</p>
+              <button class="btn btn-danger" id="btn_curr">Click</button>
+
+            
+              <hr>
+               <!-- ex-14 -->
+             <h2>14.Select first li the element of the first ul</h2>
+             <p>List 1:Drinks</p>
+             <ul>
+               <li>Coffee</li>
+               <li>Milk</li>
+               <li>Tea</li>
+             </ul>
+             <p>List 2:Meal</p>
+             <ul>
+               <li>Rice</li>
+               <li>Noddles/Ramen</li>
+               <li>Biriyani</li>
+             </ul>
+             <button class="btn btn-danger" id="firstele">Click me</button>
+
+             <hr>
+             <!-- ex-15 -->
+              <h2>15.Selects the first li element of every ul</h2>
+              <p>List 1:Drinks</p>
+             <ul id="two">
+               <li>Coffee</li>
+               <li>Milk</li>
+               <li>Tea</li>
+             </ul>
+             <p>List 2:Meal</p>
+             <ul id="two">
+               <li>Rice</li>
+               <li>Noddles/Ramen</li>
+               <li>Biriyani</li>
+             </ul>
+             <button class="btn btn-danger" id="firstchi">Click me</button>
+
+
+             <hr>
+             <!-- ex-16  -->
+              <h2>16.Selects all elements with an href attribute</h2>
+              <p><a href="https://www.w3schools.com/html/">HTML Tutorial</a></p>
+              <p><a href="https://www.w3schools.com/css/">CSS Tutorial</a></p>
+              <button class="btn btn-danger" id="linkhre">Click me</button>
+             
+
+              <hr>
+              <!-- ex-17  -->
+               <h2>17.Selects all even tr elements</h2>
+                <table class="center">
+                  <tr>
+                    <th>Company</th>
+                    <th>Country</th>
+                  </tr>
+                  <tr>
+                    <td>Euri</td>
+                    <td>Germany</td>
+                  </tr>
+                  <tr>
+                    <td>Prionty</td>
+                    <td>Sweden</td>
+                  </tr>
+                  <tr>
+                    <td>Arnab</td>
+                    <td>Mexico</td>
+                  </tr>
+                  <tr>
+                    <td>Pritam</td>
+                    <td>Austria</td>
+                  </tr>
+                  <tr>
+                    <td>Addwitiya</td>
+                    <td>UK</td>
+                  </tr>
+                </table>
+
+                <hr>
+                <!-- ex-18  -->
+                 <h2>18.The mouseleave() method attaches an event handler function</h2>
+                 <p id="p1"><img src="ban.png" width="200px" alt="">Bangladesh National Flag</p>
+
+                 <hr>
+                 <!-- ex-19  -->
+                  <h2>19.The focus() and blur() method attaches an event handler function to an HTML form field</h2>
+                  Name: <input type="text" name="fullname"><br>
+                  Email: <input type="text" name="email">
+
+
+                  <hr>
+                 <!-- ex-20  -->
+                  <h2>20.The jQuery fadeTo() method allows fading to a given opacity (value between 0 and 1)</h2>
+                  <button class="fad">Click to fade boxes</button><br><br>
+                    <div id="div1" style="width:80px;height:80px;background-color:red;"></div><br>
+                    <div id="div2" style="width:80px;height:80px;background-color:green;"></div><br>
+                    <div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
+
+
+                    <hr>
+                    <!-- ex-21  -->
+                    <h2>21.The jQuery animate() method is used to create custom animations</h2>
+                    <button id="ani_movi">Start Animation</button>
+                  <div class="height">
+                    <div class="height1"></div>
+                  </div>
+                
+
+                    <hr>
+                    <!-- ex-22  -->
+                    <h2>22.jQuery Method Chaining</h2>
+                    <p id="p1">jQuery is fun!!</p>
+                    <button id="kap">Click me</button>
+
+                    <hr>
+                    <!-- ex-23  -->
+                     <h2>23.Sets or returns the content of selected elements</h2>
+                     <p id="test1">This is some <b>bold</b> text in a paragraph.</p>
+                     <button id="btn2">Show HTML</button>
+
+                     <hr>
+                     <!-- ex-24  -->
+                      <h2>24.The jQuery val() method</h2>
+                      <p id="testi">Name: <input type="text" value="Sraboni Barua"></p>
+                      <button id="val_m">Show Value</button>
+
+                      <hr>
+                      <!-- ex-25  -->
+                       <h2>25.The jQuery attr() method is used to get attribute values.</h2>
+                       <p><a href="https://www.w3schools.com" id="w3web">W3Schools.com</a></p>
+
+                       <button id="val_at">Show href Value</button>
+
+                       <hr>
+                       <!-- ex-26  -->
+                       <h2>26.Set Content - text(), html(), and val()</h2>
+                       <p id="testin">This is a paragraph.</p>
+                        <p id="testing">This is another paragraph.</p>
+
+                        <p>Input field: <input type="text" id="testings" value="Mickey Mouse"></p>
+
+                        <button id="btn1">Set Text</button>
+                        <button id="btn2">Set HTML</button>
+                        <button id="btn3">Set Value</button>
+
+                        <hr>
+                        <!-- ex-27  -->
+                         <h2>27.Sliding turn off</h2>
+                         <button id="stop">Stop sliding</button>
+
+                          <div id="flip">Click to slide down panel</div>
+                          <div id="panel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita ipsam a cupiditate, asperiores ducimus quae! Ipsum, quas nemo? Cum, quae.</div>
+
+                        <hr>
+                        <!-- ex-28  -->
+                         <h2>28.The href attribute has change</h2>
+                         <p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
+
+                          <button id="att">Change href Value</button>
+
+                          <p>Mouse over the link (or click on it) to see that the value of the href attribute has changed.</p>
+
+                       <hr>
+                       <!-- ex-29  -->
+                        <h2>29.The jQuery append() method inserts content AT THE END of the selected HTML elements.</h2>
+                        <p id="pappend">This is a paragraph.</p>
+                            
+                            <ol id="olappend">
+                              <li>List item 1</li>
+                              <li>List item 2</li>
+                              <li>List item 3</li>
+                            </ol>
+
+                            <button id="btn12">Append text</button>
+                            <button id="btn22">Append list items</button>
+
+                        <hr>
+                        <!-- ex-30  -->
+                        <h2>30.The jQuery prepend() method inserts content AT THE BEGINNING of the selected HTML elements.</h2>
+                        <p id="prependP">This is a paragraph.</p>
+                        
+                        <ol id="prependOl">
+                          <li>List item 1</li>
+                          <li>List item 2</li>
+                          <li>List item 3</li>
+                        </ol>
+                        
+                        <button id="btn122">Prepend text</button>
+                        <button id="btn222">Prepend list item</button>
+    
+                        <hr>
+                        <!-- ex-31 -->
+                         <h2>31.jQuery after() and before() Methods</h2>
+                         <img src="download.jpeg" alt="jQuery" class="doll" width="100" height="200"><br><br>
+
+                         <button id="btn13">Insert before</button>
+                         <button id="btn23">Insert after</button>
+    
+                     
+
+                      <hr>
+                      <!-- ex-32  -->
+                       <h2>32.The jQuery remove() method removes the selected element(s) and its child elements</h2>
+                       <div id="div1" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+
+                        This is some text in the div.
+                        <p>This is a paragraph in the div.</p>
+                        <p>This is another paragraph in the div.</p>
+                        
+                        </div>
+                        <br>
+                        
+                        <button id="btnremove">Remove div element</button>
+
+                        <hr>
+                        <!-- ex-33  -->
+                         <h2>33.The jQuery empty() method</h2>
+                         <div id="div33" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+
+                          This is some text in the div.
+                          <p>This is a paragraph in the div.</p>
+                          <p>This is another paragraph in the div.</p>
+                          
+                          </div>
+                          <br>
+                          
+                          <button id="btnempty">Empty the div element</button>
+ 
+                        <hr>
+                        <!-- ex-34  -->
+                         <h2 class="addh2">34.jQuery addClass() Method</h2>
+                         <h1 class="addh1">Heading 1</h1>
+                         <h2 class="addh2">Heading 2</h2>
+                         
+                         <p class="addp">This is a paragraph.</p>
+                         
+                         
+                         <div id="divadd">This is some important text!</div><br>
+                         
+                         <button id="btnaddele">Add classes to elements</button>
+
+                         <hr>
+                         <!-- ex-35 -->
+                          <h2>35.To return the value of a specified CSS property,</h2>
+                          <h2>This is a heading</h2>
+
+                          <p style="background-color:#ff0000">This is content of JQuery.</p>
+                          <p style="background-color:#00ff00">This is content of JQuery.</p>
+                          <p style="background-color:#0000ff">This is content of JQuery.</p>
+                          
+                          <button id="btnremov">Return background-color of p</button>
+                          
+ 
+ 
+ 
+ 
+                      </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="js/script.js"></script>
+  </body>
+</html>
